@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.MainContainer{
+    background-color: #005F73;
+    height: 60px;
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* width: 100%; */
+    z-index: 4px;
+}
+.inner1{
+    padding-left: 70px;
+    font-size: large;
+}
+.links{
+    padding-right: 70px;
+    font-size: small;
+}
+.LastContainer{
+    background-color: #005F73;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+}
+a{
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forimage-2{
+    height: 100%;
+  
+    
+    background-position: center;
+   
+    position: relative;
+    z-index: -1;
+
+}
+img{
+    width: 100%;
+}
+
+.middleparent{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.middlediv{
+    height: 200px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.443);
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+    
+}
+
+.middlediv button{
+    background-color: red;
+    border: none;
+    height: 30px; 
+    color: #FFF;  
+    font-size: smaller;
+    border-radius:6px;
+    padding: 7px;
+}
+
+ .firstpara{
+    /* padding-top: 20px; */
+    /* padding-left: 5px; */
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 159, 222);
+    
+    /* line-height: 30px; */
+}
+
+.secpara{
+    padding-top: 7px;
+    padding-left: 5px;
+    line-height: 40px;
+
+}
+
+
+.list{
+    padding-left: 70px;
+    list-style: disc;
+    line-height: 40px;
+}
+
+.oneclass{
+    padding: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about h2{
+    padding-left: 30px;
+}
+.about p{
+    padding-left: 30px;
+}
+
+.about{
+    height: 100px;
+    background-color: rgba(201,205,205,0.323);
+    color: rgb(10, 221, 10);
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutpara{
+    color: black;
+    line-height: 35px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+
+.about2{
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.contactdiv{
+    height: 150px;
+    padding: 30px;
+    /* gap: 10px; */
+}
+.contact{
+    color: red;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.phone{
+    line-height: 35px;
+}
